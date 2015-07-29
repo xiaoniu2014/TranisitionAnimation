@@ -14,6 +14,13 @@
 		C52C9D341B66028300C995CC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C52C9D331B66028300C995CC /* Images.xcassets */; };
 		C52C9D371B66028300C995CC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C52C9D351B66028300C995CC /* LaunchScreen.xib */; };
 		C52C9D431B66028400C995CC /* DMMCDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C52C9D421B66028400C995CC /* DMMCDemoTests.m */; };
+		C5566D931B672BF500CD5CAC /* CollectionHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = C5566D921B672BF500CD5CAC /* CollectionHeader.m */; };
+		C5566D971B67485E00CD5CAC /* HWLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = C5566D961B67485E00CD5CAC /* HWLayout.m */; };
+		C571661F1B68A1B200BEF382 /* BaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = C571661E1B68A1B200BEF382 /* BaseController.m */; };
+		C57166251B68A1D000BEF382 /* PopAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = C57166221B68A1D000BEF382 /* PopAnimation.m */; };
+		C57166261B68A1D000BEF382 /* PushAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = C57166241B68A1D000BEF382 /* PushAnimation.m */; };
+		C57166291B68A1FB00BEF382 /* SecondController.m in Sources */ = {isa = PBXBuildFile; fileRef = C57166281B68A1FB00BEF382 /* SecondController.m */; };
+		C576602B1B675E8700F30404 /* HWCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C576602A1B675E8700F30404 /* HWCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +47,20 @@
 		C52C9D3C1B66028400C995CC /* DMMCDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DMMCDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C52C9D411B66028400C995CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C52C9D421B66028400C995CC /* DMMCDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMMCDemoTests.m; sourceTree = "<group>"; };
+		C5566D911B672BF500CD5CAC /* CollectionHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionHeader.h; sourceTree = "<group>"; };
+		C5566D921B672BF500CD5CAC /* CollectionHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionHeader.m; sourceTree = "<group>"; };
+		C5566D951B67485E00CD5CAC /* HWLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWLayout.h; sourceTree = "<group>"; };
+		C5566D961B67485E00CD5CAC /* HWLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWLayout.m; sourceTree = "<group>"; };
+		C571661D1B68A1B200BEF382 /* BaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseController.h; sourceTree = "<group>"; };
+		C571661E1B68A1B200BEF382 /* BaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseController.m; sourceTree = "<group>"; };
+		C57166211B68A1D000BEF382 /* PopAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopAnimation.h; sourceTree = "<group>"; };
+		C57166221B68A1D000BEF382 /* PopAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopAnimation.m; sourceTree = "<group>"; };
+		C57166231B68A1D000BEF382 /* PushAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PushAnimation.h; sourceTree = "<group>"; };
+		C57166241B68A1D000BEF382 /* PushAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PushAnimation.m; sourceTree = "<group>"; };
+		C57166271B68A1FB00BEF382 /* SecondController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondController.h; sourceTree = "<group>"; };
+		C57166281B68A1FB00BEF382 /* SecondController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondController.m; sourceTree = "<group>"; };
+		C57660291B675E8700F30404 /* HWCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWCell.h; sourceTree = "<group>"; };
+		C576602A1B675E8700F30404 /* HWCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +106,12 @@
 				C52C9D2B1B66028300C995CC /* AppDelegate.m */,
 				C52C9D2D1B66028300C995CC /* ViewController.h */,
 				C52C9D2E1B66028300C995CC /* ViewController.m */,
+				C57166271B68A1FB00BEF382 /* SecondController.h */,
+				C57166281B68A1FB00BEF382 /* SecondController.m */,
+				C57166201B68A1C300BEF382 /* AnimationClass */,
+				C571661C1B68A19F00BEF382 /* BaseViewController */,
+				C5566D941B672EA800CD5CAC /* Layout */,
+				C5566D901B672BCE00CD5CAC /* Views */,
 				C52C9D301B66028300C995CC /* Main.storyboard */,
 				C52C9D331B66028300C995CC /* Images.xcassets */,
 				C52C9D351B66028300C995CC /* LaunchScreen.xib */,
@@ -117,6 +144,46 @@
 				C52C9D411B66028400C995CC /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C5566D901B672BCE00CD5CAC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C5566D911B672BF500CD5CAC /* CollectionHeader.h */,
+				C5566D921B672BF500CD5CAC /* CollectionHeader.m */,
+				C57660291B675E8700F30404 /* HWCell.h */,
+				C576602A1B675E8700F30404 /* HWCell.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		C5566D941B672EA800CD5CAC /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+				C5566D951B67485E00CD5CAC /* HWLayout.h */,
+				C5566D961B67485E00CD5CAC /* HWLayout.m */,
+			);
+			name = Layout;
+			sourceTree = "<group>";
+		};
+		C571661C1B68A19F00BEF382 /* BaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C571661D1B68A1B200BEF382 /* BaseController.h */,
+				C571661E1B68A1B200BEF382 /* BaseController.m */,
+			);
+			name = BaseViewController;
+			sourceTree = "<group>";
+		};
+		C57166201B68A1C300BEF382 /* AnimationClass */ = {
+			isa = PBXGroup;
+			children = (
+				C57166231B68A1D000BEF382 /* PushAnimation.h */,
+				C57166241B68A1D000BEF382 /* PushAnimation.m */,
+				C57166211B68A1D000BEF382 /* PopAnimation.h */,
+				C57166221B68A1D000BEF382 /* PopAnimation.m */,
+			);
+			name = AnimationClass;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,9 +286,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C57166251B68A1D000BEF382 /* PopAnimation.m in Sources */,
 				C52C9D2F1B66028300C995CC /* ViewController.m in Sources */,
+				C571661F1B68A1B200BEF382 /* BaseController.m in Sources */,
+				C5566D971B67485E00CD5CAC /* HWLayout.m in Sources */,
+				C576602B1B675E8700F30404 /* HWCell.m in Sources */,
 				C52C9D2C1B66028300C995CC /* AppDelegate.m in Sources */,
+				C5566D931B672BF500CD5CAC /* CollectionHeader.m in Sources */,
+				C57166291B68A1FB00BEF382 /* SecondController.m in Sources */,
 				C52C9D291B66028300C995CC /* main.m in Sources */,
+				C57166261B68A1D000BEF382 /* PushAnimation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,9 +421,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: jie wang (9MC24KTUNK)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: jie wang (9MC24KTUNK)";
 				INFOPLIST_FILE = DMMCDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "93699689-4d6b-4008-a74f-cb90163c3147";
 			};
 			name = Debug;
 		};
@@ -357,9 +434,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: jie wang (9MC24KTUNK)";
 				INFOPLIST_FILE = DMMCDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "93699689-4d6b-4008-a74f-cb90163c3147";
 			};
 			name = Release;
 		};
@@ -416,6 +495,7 @@
 				C52C9D481B66028400C995CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C52C9D491B66028400C995CC /* Build configuration list for PBXNativeTarget "DMMCDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +504,7 @@
 				C52C9D4B1B66028400C995CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
